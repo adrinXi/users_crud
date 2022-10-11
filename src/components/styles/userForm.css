@@ -1,0 +1,70 @@
+.form {
+    background: linear-gradient(to top, #1746A2, white);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.form-x {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 18px;
+    transition: transform 200ms ease;
+    cursor: pointer;
+}
+
+.form-x:hover {
+    transform: scale(1.2);
+    transition: transform 200ms ease;
+}
+
+.form__title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.form__div {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-bottom: 15px;
+}
+
+.form__label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000b;
+}
+
+.form__input {
+    padding: 7px 15px;
+    background-color: #F5EFE6;
+    border: 1px solid #E8DFCA;
+    border-radius: 6px;
+}
+
+.form__input::placeholder {
+    color: #AAC4FF;
+}
+
+.form__btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #5F6F94;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: filter 100ms ease;
+}
+
+.form__btn:hover {
+    filter: brightness(1.2); /*esto hace el efecto del aclarado del background color*/
+    transition: filter 100ms ease;
+}
